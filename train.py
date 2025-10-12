@@ -2,7 +2,7 @@
 from sklearn.tree import DecisionTreeRegressor
 # Import from the file containing load_data (e.g., data.py or misc.py)
 # Assuming load_data is in data.py for this example
-from data import load_data 
+from misc import load_data 
 from misc import split_data, preprocess_data, train_model, evaluate_model
 
 if __name__ == "__main__":
